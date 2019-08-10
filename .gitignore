@@ -1,0 +1,13 @@
+.directory
+.DS_Store
+.vscode
+*.tmp
+*.swp
+*.bak
+*.so
+*.pyc
+*.o
+.vagrant
+tags
+src
+
