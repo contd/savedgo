@@ -64,7 +64,13 @@ func (app *App) SetupApp(loglevel string) error {
 		if err != nil {
 			log.Fatal(err)
 		} else {
-			ctx.JSON(links)
+			app.Router.RegisterView(iris.HTML("./public", ".html"))
+			app.Router.Get("/", func(ctx iris.Context) {
+				ctx.ViewData("Links", links)
+				ctx.View("index.html")
+			})
+			app.Router.Handle("/", "./public")
+			//ctx.JSON(links)
 		}
 	})
 

@@ -205,18 +205,18 @@ func (db *DB) GetStarredTag(collname string, tag string) ([]*Link, error) {
 // GetAllWith gets all items from the given collection with the given filter
 func (db *DB) GetAllWith(collname string, filter *bson.D) ([]*Link, error) {
 	projection := bson.D{
-		{"title", 1},
-		{"url", 1},
-		{"tags", 1},
-		{"domain_name", 1},
-		{"preview_picture", 1},
-		{"reading_time", 1},
-		{"created_at", 1},
-		{"updated_at", 1},
-		{"is_starred", 1},
-		{"is_archived", 1},
-		{"cached", 1},
-		{"updatedAt", 1},
+		bson.E{Key: "title", Value: 1},
+		bson.E{Key: "url", Value: 1},
+		bson.E{Key: "tags", Value: 1},
+		bson.E{Key: "domain_name", Value: 1},
+		bson.E{Key: "preview_picture", Value: 1},
+		bson.E{Key: "reading_time", Value: 1},
+		bson.E{Key: "created_at", Value: 1},
+		bson.E{Key: "updated_at", Value: 1},
+		bson.E{Key: "is_starred", Value: 1},
+		bson.E{Key: "is_archived", Value: 1},
+		bson.E{Key: "cached", Value: 1},
+		bson.E{Key: "updatedAt", Value: 1},
 	}
 	collection := db.Client.Database(db.Name).Collection(collname)
 	cur, err := collection.Find(context.TODO(), filter, options.Find().SetProjection(projection))
@@ -253,8 +253,8 @@ func (db *DB) GetAllWith(collname string, filter *bson.D) ([]*Link, error) {
 func (db *DB) GetAllTags(collname string) ([]*Tag, error) {
 	// db.links.aggregate([{$unwind:"$tags"},{$group:{_id:"$tags"}}])
 	pipeline := mongo.Pipeline{
-		{{"$unwind", "$tags"}},
-		{{"$group", bson.D{{"_id", "$tags"}}}},
+		{{Key: "$unwind", Value: "$tags"}},
+		{{Key: "$group", Value: bson.D{bson.E{Key: "_id", Value: "$tags"}}}},
 	}
 	collection := db.Client.Database(db.Name).Collection(collname)
 	cur, err := collection.Aggregate(context.TODO(), pipeline)

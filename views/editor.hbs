@@ -1,0 +1,47 @@
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+  }
+</style>
+
+{{#each links }}
+<a class="uk-button uk-button-default uk-button-small uk-margin-small-left uk-margin-small-right uk-position-top-right"
+   href="/contents/{{id}}">EXIT EDITOR</a>
+
+<textarea name="editor1" id="editor1">{{content}}</textarea>
+
+<script src="/ckeditor/ckeditor.js"></script>
+<script>
+  const editor = CKEDITOR.replace('editor1', {
+    height: '85vh',
+    width: '98vw',
+    fullPage: true,
+    extraPlugins: 'autogrow,notification',
+    autoGrow_onStartup: true,
+    toolbarCanCollapse: true,
+    bodyClass: 'editor1'
+  })
+
+  editor.on('change', (event) => {
+    const id = '{{id}}'
+    const newContent = event.editor.getData()
+
+    axios.put(`/api/editor/${id}`, {
+      content: newContent
+    })
+      .then(res => {
+        if (res && res.status === 200) {
+          const notification1 = editor.showNotification('Saved Changes','info')
+        }
+      })
+      .catch(err => {
+        console.log(`Error PUT: ${err}`)
+        const notification2 = editor.showNotification('Error Saving Changes','warning')
+      })
+  })
+</script>
+
+{{/each}}
