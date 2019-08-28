@@ -2,15 +2,27 @@ package main
 
 import (
 	"log"
-
-	"github.com/kataras/iris"
+	"os"
 )
 
 func main() {
-	const PORT = ":4444"
-	const LOGLEVEL = "debug"
-	const DBURL = "mongodb://localhost:27017/"
-	const DBNAME = "wbag"
+	var PORT = os.Getenv("PORT")         // ":4444"
+	var LOGLEVEL = os.Getenv("LOGLEVEL") // "debug"
+	var DBURL = os.Getenv("DBURL")       // "mongodb://localhost:27017/"
+	var DBNAME = os.Getenv("DBNAME")     // "wbag"
+
+	if PORT == "" {
+		PORT = ":4444"
+	}
+	if LOGLEVEL == "" {
+		LOGLEVEL = "debug"
+	}
+	if DBURL == "" {
+		DBURL = "mongodb://localhost:27017/"
+	}
+	if DBNAME == "" {
+		DBNAME = "wbag"
+	}
 
 	db := &DB{
 		URL:  DBURL,
@@ -22,11 +34,9 @@ func main() {
 	}
 
 	app := newApp(db)
-	err = app.SetupApp("debug")
+	err = app.Initialize(LOGLEVEL)
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Printf("Running server on http://localhost%s/\n", PORT)
-	//app.Router.Run(iris.Addr(PORT), iris.WithoutServerError(iris.ErrServerClosed))
-	app.Router.Run(iris.Addr(PORT))
+	app.Run(PORT)
 }

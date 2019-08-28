@@ -32,8 +32,8 @@ func newApp(db *DB) *App {
 	return app
 }
 
-// SetupApp is the App initializer
-func (app *App) SetupApp(loglevel string) error {
+// Initialize is the App initializer
+func (app *App) Initialize(loglevel string) error {
 	requestLogger := logger.New(logger.Config{
 		// Status displays status code
 		Status: true,
@@ -59,20 +59,19 @@ func (app *App) SetupApp(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/
+	app.Router.RegisterView(iris.HTML("./public", ".html"))
 	app.Router.Get("/", func(ctx iris.Context) {
-		links, err := app.DB.GetAll("links")
+		links, err := app.DB.GetStarred("links")
 		if err != nil {
 			log.Fatal(err)
 		} else {
-			app.Router.RegisterView(iris.HTML("./public", ".html"))
-			app.Router.Get("/", func(ctx iris.Context) {
-				ctx.ViewData("Links", links)
-				ctx.View("index.html")
-			})
-			app.Router.Handle("/", "./public")
+			ctx.ViewData("Links", links)
+			ctx.View("index.html")
 			//ctx.JSON(links)
 		}
 	})
+	assetHandler := app.Router.StaticHandler("./public", true, true)
+	app.Router.SPA(assetHandler)
 
 	// Method:   GET
 	// Resource: http://localhost:4444/id/:id
@@ -171,7 +170,8 @@ func (app *App) SetupApp(loglevel string) error {
 		}
 	})
 
-	/* NOT WORKING YET
+	/* SEARCH
+	   ******* NOT WORKING YET *************
 	// Method:   GET
 	// Resource: http://localhost:4444/search?q=some+words+or+phrase
 	app.Router.Get("/search", func(ctx iris.Context) {
@@ -210,4 +210,10 @@ func (app *App) SetupApp(loglevel string) error {
 	// Resource: http://localhost:4444/:id
 
 	return nil
+}
+
+// Run is the actual call to run (iris.Application.Run)
+func (app *App) Run(PORT string) {
+	log.Printf("Running server on http://localhost%s/\n", PORT)
+	app.Router.Run(iris.Addr(PORT))
 }
