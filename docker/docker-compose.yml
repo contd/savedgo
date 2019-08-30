@@ -1,0 +1,23 @@
+version: "3.1"
+
+networks:
+  web:
+    external: true
+
+services:
+  wbag:
+    build: .
+    container_name: wbag
+    restart: always
+    ports:
+      - "3333:3333"
+    environment:
+      - SERVER_PORT=3333
+      - DEBUG=false
+      - NODE_ENV=production
+      - MONGO_DB=wbag
+      - MONGO_ADDRS=mongodb:27017
+    labels:
+      - traefik.enable=false
+    networks:
+      - web
