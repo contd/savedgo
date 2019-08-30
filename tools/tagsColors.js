@@ -1,5 +1,5 @@
 const chroma = require('chroma-js')
-const tags = require('../models/tags.json')
+const tags = require('./tags.json')
 
 let topics = [], map = {}
 

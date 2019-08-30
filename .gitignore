@@ -9,3 +9,5 @@
 *.o
 .vagrant
 tags
+client/public/cache
+node_modules

@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	"github.com/iris-contrib/middleware/cors"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/middleware/logger"
 	"github.com/kataras/iris/middleware/recover"
@@ -33,6 +34,10 @@ func newApp(db *DB) *App {
 
 // Initialize is the App initializer
 func (app *App) Initialize(loglevel string) error {
+	crs := cors.New(cors.Options{
+		AllowedOrigins:   []string{"*"},
+		AllowCredentials: true,
+	})
 	requestLogger := logger.New(logger.Config{
 		// Status displays status code
 		Status: true,
@@ -55,6 +60,7 @@ func (app *App) Initialize(loglevel string) error {
 	app.Router.Logger().SetLevel(loglevel)
 	app.Router.Use(recover.New())
 	app.Router.Use(requestLogger)
+	app.Router.Use(crs)
 
 	// Method:   GET
 	// Resource: http://localhost:4444/
