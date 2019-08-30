@@ -51,11 +51,11 @@
                 </h4>
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-expand uk-text-meta uk-text-nowrap">
-                    <span uk-tooltip="Date saved">{{moment created_at}}</span>
+                    <span uk-tooltip="Date saved">{{moment | created_at}}</span>
                     </div>
                     <div class="uk-width-auto uk-text-meta">
                     <span uk-icon="clock"></span>
-                    <span uk-tooltip="Aproximate reading time">{{readtime reading_time}}min</span>
+                    <span uk-tooltip="Aproximate reading time">{{readtime | reading_time}}min</span>
                     </div>
                 </div>
                 </div>
@@ -63,9 +63,10 @@
                 <div class="uk-card-body uk-background-cover uk-light uk-height-small uk-padding-remove"
                 data-src="{{cached preview_picture id tags}}" uk-img>
                     <div class="uk-width-auto uk-float-right">
-                    {{#each tags}}
-                    <span class="uk-link-muted badge badge-{{this}} uk-text-uppercase">{{this}}</span>
-                    {{/each}}
+                        <template v-for="tag in tags" :key="tag.label">
+                            <span :class="badgeClass(tag.label)"
+                                class="uk-text-uppercase">{{ tag.label }}</span>
+                        </template>
                     </div>
                 </div>
                 <!-- Card Footer -->
@@ -76,10 +77,10 @@
                     </div>
                     <div class="uk-width-auto">
                     <a href="/starred/{{id}}" uk-tooltip="Toggle Starred">
-                        {{> star is_starred=is_starred}}
+                        {{ star | is_starred}}
                     </a>
                     <a href="/archived/{{id}}" uk-tooltip="Archive or Unarchive">
-                        {{> check is_archived=is_archived}}
+                        {{ check | is_archived}}
                     </a>
                     <a href="/remove/{{id}}" uk-tooltip="Delete Completely">
                         <span uk-icon="icon: trash"></span>
@@ -100,19 +101,20 @@
                     <a href="{{url}}" target="_blank" uk-icon="icon: link" uk-tooltip="Original Link"></a>
             </td>
             <td class="uk-text-nowrap">
-                <span uk-tooltip="Date saved">{{shortMoment created_at}}</span>
+                <span uk-tooltip="Date saved">{{shortMoment | created_at}}</span>
             </td>
             <td class="uk-text-nowrap">
-                {{#each tags}}
-                <span class="uk-link-muted badge badge-{{this}} uk-text-uppercase">{{this}}</span>
-                {{/each}}
+                <template v-for="tag in tags" :key="tag.label">
+                    <span :class="badgeClass(tag.label)"
+                        class="uk-text-uppercase">{{ tag.label }}</span>
+                </template>
             </td>
             <td class="uk-text-nowrap">
                 <a href="/starred/{{id}}" uk-tooltip="Toggle Starred">
-                {{> star is_starred=is_starred}}
+                    {{ star | is_starred}}
                 </a>
                 <a href="/archived/{{id}}" uk-tooltip="Archive or Unarchive">
-                {{> check is_archived=is_archived}}
+                    {{ check | is_archived}}
                 </a>
                 <a href="/remove/{{id}}" uk-tooltip="Delete Completely">
                 <span uk-icon="icon: trash"></span>

@@ -118,39 +118,6 @@ func (db *DB) GetArchived(collname string) ([]*Link, error) {
 	return results, nil
 }
 
-// GetArchivedID returns all items that is_archived=true
-func (db *DB) GetArchivedID(collname string, id string) (*Link, error) {
-	objID, err := primitive.ObjectIDFromHex(id)
-	if err != nil {
-		log.Fatalf("ObjectIDFromHex: %v", err)
-	}
-	filter := bson.D{
-		{
-			Key:   "_id",
-			Value: objID,
-		},
-		bson.E{
-			Key:   "is_archived",
-			Value: true,
-		},
-	}
-	var result *Link
-	e := bson.D{}
-	collection := db.Client.Database(db.Name).Collection(collname)
-	err = collection.FindOne(context.TODO(), filter).Decode(&e)
-	if err != nil {
-		log.Fatalf("FindOne: %v", err)
-		return nil, err
-	}
-	b, _ := bson.Marshal(e)
-	err = bson.Unmarshal(b, &result)
-	if err != nil {
-		log.Fatalf("Unmarshal: %v", err)
-		return nil, err
-	}
-	return result, nil
-}
-
 // GetArchivedTag returns all items that is_archived=true and with tag
 func (db *DB) GetArchivedTag(collname string, tag string) ([]*Link, error) {
 	filter := bson.D{
@@ -302,14 +269,26 @@ func (db *DB) SearchFor(collname string, q string) ([]*Link, error) {
 */
 
 // CreateOne inserts/creates a new link from the passed link struct
-func (db *DB) CreateOne(collname string, link *Link) error {
+func (db *DB) CreateOne(collname string, link *Link) (string, error) {
 	if link.ID.IsZero() {
 		link.ID = primitive.NewObjectID()
 	}
 	collection := db.Client.Database(db.Name).Collection(collname)
-	_, err := collection.InsertOne(context.TODO(), link)
+	res, err := collection.InsertOne(context.TODO(), link)
 	if err != nil {
 		log.Fatalf("InsertOne: %v\n", err)
+		return "", err
+	}
+	newID := res.InsertedID.(primitive.ObjectID).Hex()
+	return newID, nil
+}
+
+// DropCollection is used to drop a collection
+func (db *DB) DropCollection(collname string) error {
+	collection := db.Client.Database(db.Name).Collection(collname)
+	err := collection.Drop(context.TODO())
+	if err != nil {
+		log.Fatalf("Drop Collection [%s]: %v\n", collname, err)
 		return err
 	}
 	return nil

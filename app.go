@@ -4,7 +4,6 @@ import (
 	"log"
 
 	"github.com/kataras/iris"
-
 	"github.com/kataras/iris/middleware/logger"
 	"github.com/kataras/iris/middleware/recover"
 )
@@ -59,19 +58,17 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/
-	app.Router.RegisterView(iris.HTML("./public", ".html"))
-	app.Router.Get("/", func(ctx iris.Context) {
-		links, err := app.DB.GetStarred("links")
-		if err != nil {
-			log.Fatal(err)
-		} else {
-			ctx.ViewData("Links", links)
-			ctx.View("index.html")
-			//ctx.JSON(links)
-		}
-	})
 	assetHandler := app.Router.StaticHandler("./public", true, true)
 	app.Router.SPA(assetHandler)
+
+	// app.Router.Get("/", func(ctx iris.Context) {
+	// 	links, err := app.DB.GetStarred("links")
+	// 	if err != nil {
+	// 		log.Fatal(err)
+	// 	} else {
+	// 		ctx.JSON(links)
+	// 	}
+	// })
 
 	// Method:   GET
 	// Resource: http://localhost:4444/id/:id
@@ -109,18 +106,6 @@ func (app *App) Initialize(loglevel string) error {
 			log.Fatal(err)
 		} else {
 			ctx.JSON(links)
-		}
-	})
-
-	// Method:   GET
-	// Resource: http://localhost:4444/archived/:id
-	app.Router.Get("/archived/{id:string max(255)}", func(ctx iris.Context) {
-		id := ctx.Params().Get("id")
-		link, err := app.DB.GetArchivedID("links", id)
-		if err != nil {
-			log.Fatal(err)
-		} else {
-			ctx.JSON(link)
 		}
 	})
 
@@ -193,7 +178,7 @@ func (app *App) Initialize(loglevel string) error {
 		if err != nil {
 			log.Fatalf("ReadJSON: %v\n", err)
 		}
-		err = app.DB.CreateOne("links", link)
+		_, err = app.DB.CreateOne("links", link)
 		if err != nil {
 			log.Fatalf("CreateOne: %v", err)
 		}
