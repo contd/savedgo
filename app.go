@@ -2,16 +2,15 @@ package main
 
 import (
 	"log"
+	"net/http"
 
-	"github.com/iris-contrib/middleware/cors"
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/middleware/logger"
-	"github.com/kataras/iris/middleware/recover"
+	"github.com/labstack/echo"
+	"github.com/labstack/echo/middleware"
 )
 
 // App struct to make app testable
 type App struct {
-	Router *iris.Application
+	Router *echo.Echo
 	DB     *DB
 }
 
@@ -26,7 +25,7 @@ func (app *App) getItem(id string) (*Link, error) {
 
 func newApp(db *DB) *App {
 	app := &App{
-		Router: iris.Default(),
+		Router: echo.New(),
 		DB:     db,
 	}
 	return app
@@ -34,138 +33,107 @@ func newApp(db *DB) *App {
 
 // Initialize is the App initializer
 func (app *App) Initialize(loglevel string) error {
-	crs := cors.New(cors.Options{
-		AllowedOrigins:   []string{"*"},
-		AllowCredentials: true,
-	})
-	requestLogger := logger.New(logger.Config{
-		// Status displays status code
-		Status: true,
-		// IP displays request's remote address
-		IP: true,
-		// Method displays the http method
-		Method: true,
-		// Path displays the request path
-		Path: true,
-		// Query appends the url query to the Path.
-		Query: true,
-
-		// if !empty then its contents derives from `ctx.Values().Get("logger_message")
-		// will be added to the logs.
-		MessageContextKeys: []string{"logger_message"},
-
-		// if !empty then its contents derives from `ctx.GetHeader("User-Agent")
-		MessageHeaderKeys: []string{"User-Agent"},
-	})
-	app.Router.Logger().SetLevel(loglevel)
-	app.Router.Use(recover.New())
-	app.Router.Use(requestLogger)
-	app.Router.Use(crs)
+	app.Router.Use(middleware.Logger())
+	app.Router.Use(middleware.Recover())
+	app.Router.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowOrigins: []string{"https://kumpf.io", "http://localhost:*"},
+		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
+	}))
 
 	// Method:   GET
 	// Resource: http://localhost:4444/
-	assetHandler := app.Router.StaticHandler("./public", true, true)
-	app.Router.SPA(assetHandler)
-
-	// app.Router.Get("/", func(ctx iris.Context) {
-	// 	links, err := app.DB.GetStarred("links")
-	// 	if err != nil {
-	// 		log.Fatal(err)
-	// 	} else {
-	// 		ctx.JSON(links)
-	// 	}
-	// })
+	app.Router.Static("/", "./public")
 
 	// Method:   GET
 	// Resource: http://localhost:4444/id/:id
-	app.Router.Get("/id/{id:string max(255)}", func(ctx iris.Context) {
-		id := ctx.Params().Get("id")
+	app.Router.GET("/id/:id", func(ctx echo.Context) error {
+		id := ctx.Param("id")
 		link, _ := app.getItem(id)
-		ctx.JSON(link)
+		return ctx.JSON(http.StatusOK, link)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/contents/:id{int64}
-	app.Router.Get("/contents/{id:string max(255)}", func(ctx iris.Context) {
-		id := ctx.Params().Get("id")
+	app.Router.GET("/contents/{id:string max(255)}", func(ctx echo.Context) error {
+		id := ctx.Param("id")
 		link, _ := app.getItem(id)
-		ctx.JSON(link)
+		return ctx.JSON(http.StatusOK, link)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/tag/:tag
-	app.Router.Get("/tag/{tag:string max(255)}", func(ctx iris.Context) {
-		tag := ctx.Params().Get("tag")
+	app.Router.GET("/tag/{tag:string max(255)}", func(ctx echo.Context) error {
+		tag := ctx.Param("tag")
 		link, err := app.DB.GetTagged("links", tag)
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(link)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, link)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/archived
-	app.Router.Get("/archived", func(ctx iris.Context) {
+	app.Router.GET("/archived", func(ctx echo.Context) error {
 		links, err := app.DB.GetArchived("links")
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(links)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, links)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/archived/:tag
-	app.Router.Get("/archived/{tag:string max(255)}", func(ctx iris.Context) {
-		tag := ctx.Params().Get("tag")
+	app.Router.GET("/archived/{tag:string max(255)}", func(ctx echo.Context) error {
+		tag := ctx.Param("tag")
 		links, err := app.DB.GetArchivedTag("links", tag)
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(links)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, links)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/starred
-	app.Router.Get("/starred", func(ctx iris.Context) {
+	app.Router.GET("/starred", func(ctx echo.Context) error {
 		links, err := app.DB.GetStarred("links")
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(links)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, links)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/starred/:tag
-	app.Router.Get("/starred/{tag:string max(255)}", func(ctx iris.Context) {
-		tag := ctx.Params().Get("tag")
+	app.Router.GET("/starred/{tag:string max(255)}", func(ctx echo.Context) error {
+		tag := ctx.Param("tag")
 		links, err := app.DB.GetStarredTag("links", tag)
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(links)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, links)
 	})
 
 	// Method:   GET
 	// Resource: http://localhost:4444/tags
-	app.Router.Get("/tags", func(ctx iris.Context) {
+	app.Router.GET("/tags", func(ctx echo.Context) error {
 		tags, err := app.DB.GetAllTags("links")
 		if err != nil {
 			log.Fatal(err)
-		} else {
-			ctx.JSON(tags)
+			return err
 		}
+		return ctx.JSON(http.StatusOK, tags)
 	})
 
 	/* SEARCH
 	   ******* NOT WORKING YET *************
 	// Method:   GET
 	// Resource: http://localhost:4444/search?q=some+words+or+phrase
-	app.Router.Get("/search", func(ctx iris.Context) {
+	app.Router.GET("/search", func(ctx echo.Context) {
 		q := ctx.URLParam("q")
 		links, err := app.DB.SearchFor("links", q)
 		if err != nil {
@@ -176,29 +144,56 @@ func (app *App) Initialize(loglevel string) error {
 	})
 	*/
 
-	// Method:   POST
+	// Method:   POST (Create)
 	// Resource: http://localhost:4444/
-	app.Router.Post("/", func(ctx iris.Context) {
+	app.Router.POST("/", func(ctx echo.Context) error {
 		link := new(Link)
-		err := ctx.ReadJSON(link)
+		err := ctx.Bind(link)
 		if err != nil {
 			log.Fatalf("ReadJSON: %v\n", err)
+			return err
 		}
 		_, err = app.DB.CreateOne("links", link)
 		if err != nil {
 			log.Fatalf("CreateOne: %v", err)
+			return err
 		}
-		ctx.JSON(link)
+		return ctx.JSON(http.StatusOK, link)
 	})
 
-	// Method:   POST
+	// Method:   PUT (Update)
 	// Resource: http://localhost:4444/:id
+	app.Router.PUT("/{id:string max(255)}", func(ctx echo.Context) error {
+		link := new(Link)
+		err := ctx.Bind(link)
+		if err != nil {
+			log.Fatalf("ReadJSON: %v\n", err)
+			return err
+		}
+		err = app.DB.UpdateOne("links", link)
+		if err != nil {
+			log.Fatalf("UpdateOne: %v", err)
+			return err
+		}
+		return ctx.JSON(http.StatusOK, link)
+	})
 
-	// Method:   PUT
+	// Method:   DELETE (Delete)
 	// Resource: http://localhost:4444/:id
-
-	// Method:   DELETE
-	// Resource: http://localhost:4444/:id
+	app.Router.DELETE("/{id:string max(255)}", func(ctx echo.Context) error {
+		link := new(Link)
+		err := ctx.Bind(link)
+		if err != nil {
+			log.Fatalf("ReadJSON: %v\n", err)
+			return err
+		}
+		err = app.DB.DeleteOne("links", link)
+		if err != nil {
+			log.Fatalf("DeleteOne: %v", err)
+			return err
+		}
+		return ctx.JSON(http.StatusOK, link)
+	})
 
 	return nil
 }
@@ -206,5 +201,5 @@ func (app *App) Initialize(loglevel string) error {
 // Run is the actual call to run (iris.Application.Run)
 func (app *App) Run(PORT string) {
 	log.Printf("Running server on http://localhost%s/\n", PORT)
-	app.Router.Run(iris.Addr(PORT))
+	app.Router.Logger.Fatal(app.Router.Start(PORT))
 }

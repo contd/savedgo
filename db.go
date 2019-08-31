@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"errors"
 	"log"
 	"time"
 
@@ -281,6 +282,45 @@ func (db *DB) CreateOne(collname string, link *Link) (string, error) {
 	}
 	newID := res.InsertedID.(primitive.ObjectID).Hex()
 	return newID, nil
+}
+
+// UpdateOne updates the given link with the new data
+func (db *DB) UpdateOne(collname string, link *Link) error {
+	if link.ID.IsZero() {
+		return errors.New("Cannot update link: id not found")
+	}
+	collection := db.Client.Database(db.Name).Collection(collname)
+	_, err := collection.UpdateOne(
+		context.Background(),
+		bson.D{
+			{Key: "_id", Value: link.ID},
+		},
+		link,
+	)
+	if err != nil {
+		log.Fatalf("InsertOne: %v\n", err)
+		return err
+	}
+	return nil
+}
+
+// DeleteOne deletes the given link
+func (db *DB) DeleteOne(collname string, link *Link) error {
+	if link.ID.IsZero() {
+		return errors.New("Cannot delete link: id not found")
+	}
+	collection := db.Client.Database(db.Name).Collection(collname)
+	_, err := collection.DeleteOne(
+		context.TODO(),
+		bson.D{
+			{Key: "_id", Value: link.ID},
+		},
+	)
+	if err != nil {
+		log.Fatalf("DeleteOne: %v\n", err)
+		return err
+	}
+	return nil
 }
 
 // DropCollection is used to drop a collection
