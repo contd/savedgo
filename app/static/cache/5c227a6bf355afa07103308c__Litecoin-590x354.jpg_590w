@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="pingback" href="https://hacked.com/xmlrpc.php" />
+<meta property="og:description" content="Bitcoin, Ethereum, Stocks, Forex &amp; Cryptocurrency Analysis" />
+<title>Hacked: Analysis of Bitcoin, Ethereum, ICOs and Cryptocurrencies</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Exclusive analysis of cryptocurrencies like Bitcoin, Ethereum, Litecoin, including rating of Initial Coin Offerings (ICO), trade recommendations, Stocks, Forex, Tutorials, and market recaps."/>
+<link rel="canonical" href="https://hacked.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Hacked: Analysis of Bitcoin, Ethereum, ICOs and Cryptocurrencies" />
+<meta property="og:description" content="Exclusive analysis of cryptocurrencies like Bitcoin, Ethereum, Litecoin, including rating of Initial Coin Offerings (ICO), trade recommendations, Stocks, Forex, Tutorials, and market recaps." />
+<meta property="og:url" content="https://hacked.com/" />
+<meta property="og:site_name" content="Hacked: Hacking Finance" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"https://hacked.com/#website","url":"https://hacked.com/","name":"Hacked: Hacking Finance","potentialAction":{"@type":"SearchAction","target":"https://hacked.com/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"https://hacked.com/","sameAs":["https://twitter.com/hackedcom"],"@id":"https://hacked.com/#organization","name":"Hacked","logo":"https://hacked.com/wp-content/uploads/2016/09/logo-1.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Hacked: Hacking Finance &raquo; Feed" href="https://hacked.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hacked: Hacking Finance &raquo; Comments Feed" href="https://hacked.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hacked.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='pmpro_frontend-css'  href='https://hacked.com/wp-content/plugins/paid-memberships-pro/css/frontend.css?ver=1.9.5.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='pmpro_print-css'  href='https://hacked.com/wp-content/plugins/paid-memberships-pro/css/print.css?ver=1.9.5.6' type='text/css' media='print' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://hacked.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bbp-default-css'  href='https://hacked.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.14-6684' type='text/css' media='screen' />
+<link rel='stylesheet' id='pmpro-add-paypal-express-styles-css'  href='https://hacked.com/wp-content/plugins/pmpro-add-paypal-express/css/pmpro-add-paypal-express.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-postratings-css'  href='https://hacked.com/wp-content/plugins/wp-postratings/css/postratings-css.css?ver=1.85' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='https://hacked.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-custom-style-css'  href='https://hacked.com/wp-content/themes/zox-news/style.css?ver=5.0.2' type='text/css' media='all' />
+<style id='mvp-custom-style-inline-css' type='text/css'>
+
+
+#mvp-wallpaper {
+	background: url() no-repeat 50% 0;
+	}
+
+#mvp-foot-copy a {
+	color: #0be6af;
+	}
+
+#mvp-content-main p a,
+.mvp-post-add-main p a {
+	box-shadow: inset 0 -4px 0 #0be6af;
+	}
+
+#mvp-content-main p a:hover,
+.mvp-post-add-main p a:hover {
+	background: #0be6af;
+	}
+
+a,
+a:visited,
+.post-info-name a,
+.woocommerce .woocommerce-breadcrumb a {
+	color: #ff005b;
+	}
+
+#mvp-side-wrap a:hover {
+	color: #ff005b;
+	}
+
+.mvp-fly-top:hover,
+.mvp-vid-box-wrap,
+ul.mvp-soc-mob-list li.mvp-soc-mob-com {
+	background: #0be6af;
+	}
+
+nav.mvp-fly-nav-menu ul li.menu-item-has-children:after,
+.mvp-feat1-left-wrap span.mvp-cd-cat,
+.mvp-widget-feat1-top-story span.mvp-cd-cat,
+.mvp-widget-feat2-left-cont span.mvp-cd-cat,
+.mvp-widget-dark-feat span.mvp-cd-cat,
+.mvp-widget-dark-sub span.mvp-cd-cat,
+.mvp-vid-wide-text span.mvp-cd-cat,
+.mvp-feat2-top-text span.mvp-cd-cat,
+.mvp-feat3-main-story span.mvp-cd-cat,
+.mvp-feat3-sub-text span.mvp-cd-cat,
+.mvp-feat4-main-text span.mvp-cd-cat,
+.woocommerce-message:before,
+.woocommerce-info:before,
+.woocommerce-message:before {
+	color: #0be6af;
+	}
+
+#searchform input,
+.mvp-authors-name {
+	border-bottom: 1px solid #0be6af;
+	}
+
+.mvp-fly-top:hover {
+	border-top: 1px solid #0be6af;
+	border-left: 1px solid #0be6af;
+	border-bottom: 1px solid #0be6af;
+	}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+	background-color: #0be6af;
+	}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+	border-top-color: #0be6af;
+	}
+
+ul.mvp-feat1-list-buts li.active span.mvp-feat1-list-but,
+span.mvp-widget-home-title,
+span.mvp-post-cat,
+span.mvp-feat1-pop-head {
+	background: #424242;
+	}
+
+.woocommerce span.onsale {
+	background-color: #424242;
+	}
+
+.mvp-widget-feat2-side-more-but,
+.woocommerce .star-rating span:before,
+span.mvp-prev-next-label,
+.mvp-cat-date-wrap .sticky {
+	color: #424242 !important;
+	}
+
+#mvp-main-nav-top,
+#mvp-fly-wrap,
+.mvp-soc-mob-right,
+#mvp-main-nav-small-cont {
+	background: #000000;
+	}
+
+#mvp-main-nav-small .mvp-fly-but-wrap span,
+#mvp-main-nav-small .mvp-search-but-wrap span,
+.mvp-nav-top-left .mvp-fly-but-wrap span,
+#mvp-fly-wrap .mvp-fly-but-wrap span {
+	background: #555555;
+	}
+
+.mvp-nav-top-right .mvp-nav-search-but,
+span.mvp-fly-soc-head,
+.mvp-soc-mob-right i,
+#mvp-main-nav-small span.mvp-nav-search-but,
+#mvp-main-nav-small .mvp-nav-menu ul li a  {
+	color: #555555;
+	}
+
+#mvp-main-nav-small .mvp-nav-menu ul li.menu-item-has-children a:after {
+	border-color: #555555 transparent transparent transparent;
+	}
+
+#mvp-nav-top-wrap span.mvp-nav-search-but:hover,
+#mvp-main-nav-small span.mvp-nav-search-but:hover {
+	color: #0be6af;
+	}
+
+#mvp-nav-top-wrap .mvp-fly-but-wrap:hover span,
+#mvp-main-nav-small .mvp-fly-but-wrap:hover span,
+span.mvp-woo-cart-num:hover {
+	background: #0be6af;
+	}
+
+#mvp-main-nav-bot-cont {
+	background: #ffffff;
+	}
+
+#mvp-nav-bot-wrap .mvp-fly-but-wrap span,
+#mvp-nav-bot-wrap .mvp-search-but-wrap span {
+	background: #000000;
+	}
+
+#mvp-nav-bot-wrap span.mvp-nav-search-but,
+#mvp-nav-bot-wrap .mvp-nav-menu ul li a {
+	color: #000000;
+	}
+
+#mvp-nav-bot-wrap .mvp-nav-menu ul li.menu-item-has-children a:after {
+	border-color: #000000 transparent transparent transparent;
+	}
+
+.mvp-nav-menu ul li:hover a {
+	border-bottom: 5px solid #0be6af;
+	}
+
+#mvp-nav-bot-wrap .mvp-fly-but-wrap:hover span {
+	background: #0be6af;
+	}
+
+#mvp-nav-bot-wrap span.mvp-nav-search-but:hover {
+	color: #0be6af;
+	}
+
+body,
+.mvp-feat1-feat-text p,
+.mvp-feat2-top-text p,
+.mvp-feat3-main-text p,
+.mvp-feat3-sub-text p,
+#searchform input,
+.mvp-author-info-text,
+span.mvp-post-excerpt,
+.mvp-nav-menu ul li ul.sub-menu li a,
+nav.mvp-fly-nav-menu ul li a,
+.mvp-ad-label,
+span.mvp-feat-caption,
+.mvp-post-tags a,
+.mvp-post-tags a:visited,
+span.mvp-author-box-name a,
+#mvp-author-box-text p,
+.mvp-post-gallery-text p,
+ul.mvp-soc-mob-list li span,
+#comments,
+h3#reply-title,
+h2.comments,
+#mvp-foot-copy p,
+span.mvp-fly-soc-head,
+.mvp-post-tags-header,
+span.mvp-prev-next-label,
+span.mvp-post-add-link-but,
+#mvp-comments-button a,
+#mvp-comments-button span.mvp-comment-but-text,
+.woocommerce ul.product_list_widget span.product-title,
+.woocommerce ul.product_list_widget li a,
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+.woocommerce div.product p.price,
+.woocommerce div.product p.price ins,
+.woocommerce div.product p.price del,
+.woocommerce ul.products li.product .price del,
+.woocommerce ul.products li.product .price ins,
+.woocommerce ul.products li.product .price,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.woocommerce span.onsale,
+.woocommerce-review-link,
+#woo-content p.woocommerce-result-count,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+a.mvp-inf-more-but,
+span.mvp-cont-read-but,
+span.mvp-cd-cat,
+span.mvp-cd-date,
+.mvp-feat4-main-text p,
+span.mvp-woo-cart-num,
+span.mvp-widget-home-title2,
+.wp-caption,
+#mvp-content-main p.wp-caption-text,
+.gallery-caption,
+.mvp-post-add-main p.wp-caption-text,
+#bbpress-forums,
+#bbpress-forums p,
+.protected-post-form input {
+	font-family: 'Roboto', sans-serif;
+	}
+
+.mvp-blog-story-text p,
+span.mvp-author-page-desc,
+#mvp-404 p,
+.mvp-widget-feat1-bot-text p,
+.mvp-widget-feat2-left-text p,
+.mvp-flex-story-text p,
+.mvp-search-text p,
+#mvp-content-main p,
+.mvp-post-add-main p,
+.rwp-summary,
+.rwp-u-review__comment,
+.mvp-feat5-mid-main-text p,
+.mvp-feat5-small-main-text p {
+	font-family: 'PT Serif', sans-serif;
+	}
+
+.mvp-nav-menu ul li a,
+#mvp-foot-menu ul li a {
+	font-family: 'Oswald', sans-serif;
+	}
+
+
+.mvp-feat1-sub-text h2,
+.mvp-feat1-pop-text h2,
+.mvp-feat1-list-text h2,
+.mvp-widget-feat1-top-text h2,
+.mvp-widget-feat1-bot-text h2,
+.mvp-widget-dark-feat-text h2,
+.mvp-widget-dark-sub-text h2,
+.mvp-widget-feat2-left-text h2,
+.mvp-widget-feat2-right-text h2,
+.mvp-blog-story-text h2,
+.mvp-flex-story-text h2,
+.mvp-vid-wide-more-text p,
+.mvp-prev-next-text p,
+.mvp-related-text,
+.mvp-post-more-text p,
+h2.mvp-authors-latest a,
+.mvp-feat2-bot-text h2,
+.mvp-feat3-sub-text h2,
+.mvp-feat3-main-text h2,
+.mvp-feat4-main-text h2,
+.mvp-feat5-text h2,
+.mvp-feat5-mid-main-text h2,
+.mvp-feat5-small-main-text h2,
+.mvp-feat5-mid-sub-text h2 {
+	font-family: 'Oswald', sans-serif;
+	}
+
+.mvp-feat2-top-text h2,
+.mvp-feat1-feat-text h2,
+h1.mvp-post-title,
+h1.mvp-post-title-wide,
+.mvp-drop-nav-title h4,
+#mvp-content-main blockquote p,
+.mvp-post-add-main blockquote p,
+#mvp-404 h1,
+#woo-content h1.page-title,
+.woocommerce div.product .product_title,
+.woocommerce ul.products li.product h3 {
+	font-family: 'Oswald', sans-serif;
+	}
+
+span.mvp-feat1-pop-head,
+.mvp-feat1-pop-text:before,
+span.mvp-feat1-list-but,
+span.mvp-widget-home-title,
+.mvp-widget-feat2-side-more,
+span.mvp-post-cat,
+span.mvp-page-head,
+h1.mvp-author-top-head,
+.mvp-authors-name,
+#mvp-content-main h1,
+#mvp-content-main h2,
+#mvp-content-main h3,
+#mvp-content-main h4,
+#mvp-content-main h5,
+#mvp-content-main h6,
+.woocommerce .related h2,
+.woocommerce div.product .woocommerce-tabs .panel h2,
+.woocommerce div.product .product_title,
+.mvp-feat5-side-list .mvp-feat1-list-img:after {
+	font-family: 'Roboto', sans-serif;
+	}
+
+	
+
+	#mvp-main-nav-top {
+		background: #fff;
+		padding: 15px 0 0;
+		}
+	#mvp-fly-wrap,
+	.mvp-soc-mob-right,
+	#mvp-main-nav-small-cont {
+		background: #fff;
+		}
+	#mvp-main-nav-small .mvp-fly-but-wrap span,
+	#mvp-main-nav-small .mvp-search-but-wrap span,
+	.mvp-nav-top-left .mvp-fly-but-wrap span,
+	#mvp-fly-wrap .mvp-fly-but-wrap span {
+		background: #000;
+		}
+	.mvp-nav-top-right .mvp-nav-search-but,
+	span.mvp-fly-soc-head,
+	.mvp-soc-mob-right i,
+	#mvp-main-nav-small span.mvp-nav-search-but,
+	#mvp-main-nav-small .mvp-nav-menu ul li a  {
+		color: #000;
+		}
+	#mvp-main-nav-small .mvp-nav-menu ul li.menu-item-has-children a:after {
+		border-color: #000 transparent transparent transparent;
+		}
+	.mvp-feat1-feat-text h2,
+	h1.mvp-post-title,
+	.mvp-feat2-top-text h2,
+	.mvp-feat3-main-text h2,
+	#mvp-content-main blockquote p,
+	.mvp-post-add-main blockquote p {
+		font-family: 'Anton', sans-serif;
+		font-weight: 400;
+		letter-spacing: normal;
+		}
+	.mvp-feat1-feat-text h2,
+	.mvp-feat2-top-text h2,
+	.mvp-feat3-main-text h2 {
+		line-height: 1;
+		text-transform: uppercase;
+		}
+		
+
+	span.mvp-nav-soc-but,
+	ul.mvp-fly-soc-list li a,
+	span.mvp-woo-cart-num {
+		background: rgba(0,0,0,.8);
+		}
+	span.mvp-woo-cart-icon {
+		color: rgba(0,0,0,.8);
+		}
+	nav.mvp-fly-nav-menu ul li,
+	nav.mvp-fly-nav-menu ul li ul.sub-menu {
+		border-top: 1px solid rgba(0,0,0,.1);
+		}
+	nav.mvp-fly-nav-menu ul li a {
+		color: #000;
+		}
+	.mvp-drop-nav-title h4 {
+		color: #000;
+		}
+		
+
+	#mvp-main-body-wrap {
+		padding-top: 20px;
+		}
+	#mvp-feat2-wrap,
+	#mvp-feat4-wrap,
+	#mvp-post-feat-img-wide,
+	#mvp-vid-wide-wrap {
+		margin-top: -20px;
+		}
+	@media screen and (max-width: 479px) {
+		#mvp-main-body-wrap {
+			padding-top: 15px;
+			}
+		#mvp-feat2-wrap,
+		#mvp-feat4-wrap,
+		#mvp-post-feat-img-wide,
+		#mvp-vid-wide-wrap {
+			margin-top: -15px;
+			}
+		}
+		
+
+	.mvp-nav-links {
+		display: none;
+		}
+		
+</style>
+<link rel='stylesheet' id='mvp-reset-css'  href='https://hacked.com/wp-content/themes/zox-news/css/reset.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://hacked.com/wp-content/themes/zox-news/font-awesome/css/font-awesome.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-fonts-css'  href='//fonts.googleapis.com/css?family=Advent+Pro%3A700%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7COpen+Sans%3A700%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7CAnton%3A400%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7COswald%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7COswald%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7CPT+Serif%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%7COswald%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese' type='text/css' media='all' />
+<link rel='stylesheet' id='mvp-media-queries-css'  href='https://hacked.com/wp-content/themes/zox-news/css/media-queries.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hacked-photoswipe-style-css'  href='https://hacked.com/wp-content/themes/zox-news/js/photoswipe/photoswipe.css?ver=3.1.15' type='text/css' media='all' />
+<link rel='stylesheet' id='hacked-photoswipe-skin-style-css'  href='https://hacked.com/wp-content/themes/zox-news/js/photoswipe/default-skin/default-skin.css?ver=3.1.15' type='text/css' media='all' />
+<link rel='stylesheet' id='hacked-custom-style-css'  href='https://hacked.com/wp-content/themes/zox-news/css/custom.css?ver=3.1.15' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://hacked.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rpt-css'  href='https://hacked.com/wp-content/plugins/dk-pricr-responsive-pricing-table/inc/css/rpt_style.min.css?ver=5.0.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://hacked.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://hacked.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"1","sampling_rate":"100","ajax_url":"https:\/\/hacked.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","ID":"","token":"20bd3a9fc4","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hacked.com/wp-content/plugins/wordpress-popular-posts/public/js/wpp-4.2.0.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/plugins/dk-pricr-responsive-pricing-table/inc/js/rpt.min.js?ver=5.0.2'></script>
+<link rel='https://api.w.org/' href='https://hacked.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hacked.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hacked.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://hacked.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://hacked.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhacked.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hacked.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhacked.com%2F&#038;format=xml" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57572878-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-57572878-1');
+</script>
+
+<meta name="google-site-verification" content="PI67UnMV0s5QI_qamcnzlXDbSyb_zWseaxudOAwqBrY" />
+      <meta name="onesignal" content="wordpress-plugin"/>
+          <link rel="manifest"
+            href="https://hacked.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json.php?gcm_sender_id="/>
+          <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://hacked.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'b074a1b7-e220-4fe0-9ee9-f6ad814af9f5';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://hacked.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.2cb21d9d-922f-420a-8137-99f511b7fc1b";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+<link rel="icon" href="https://hacked.com/wp-content/uploads/2017/08/cropped-hackedlogo-kopi-80x80.png" sizes="32x32" />
+<link rel="icon" href="https://hacked.com/wp-content/uploads/2017/08/cropped-hackedlogo-kopi-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://hacked.com/wp-content/uploads/2017/08/cropped-hackedlogo-kopi-300x300.png" />
+<meta name="msapplication-TileImage" content="https://hacked.com/wp-content/uploads/2017/08/cropped-hackedlogo-kopi-300x300.png" />
+</head>
+<body class="home page-template page-template-page-home page-template-page-home-php page page-id-30344 pmpro-body-has-access">
+	<div id="mvp-fly-wrap">
+	<div id="mvp-fly-menu-top" class="left relative">
+		<div class="mvp-fly-top-out left relative">
+			<div class="mvp-fly-top-in">
+				<div id="mvp-fly-logo" class="left relative">
+											<a href="https://hacked.com/"><img src="https://hacked.com/wp-content/uploads/2017/10/hackedlogokopi3.png" alt="Hacked: Hacking Finance" data-rjs="2" /></a>
+									</div><!--mvp-fly-logo-->
+			</div><!--mvp-fly-top-in-->
+			<div class="mvp-fly-but-wrap mvp-fly-but-menu mvp-fly-but-click">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div><!--mvp-fly-but-wrap-->
+		</div><!--mvp-fly-top-out-->
+	</div><!--mvp-fly-menu-top-->
+	<div id="mvp-fly-menu-wrap">
+		<nav class="mvp-fly-nav-menu left relative">
+			<div class="menu-primary-container"><ul id="menu-primary" class="menu"><li id="menu-item-17380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17380"><a href="https://hacked.com/continue-reading">Join</a></li>
+<li id="menu-item-16532" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16532"><a href="https://hacked.com/wp-login.php">Login</a></li>
+<li id="menu-item-18997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18997"><a href="https://hacked.com/success-stories/">Success Stories</a></li>
+<li id="menu-item-71661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71661"><a href="https://hacked.com/forums/">Forum</a></li>
+<li id="menu-item-26085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26085"><a href="https://hacked.com/cryptocurrency-trend-signals-detailed-trading-investment-advice/">Trend Signals</a></li>
+<li id="menu-item-17690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17690"><a href="https://hacked.com/recommendations2/">Recommendations</a></li>
+<li id="menu-item-16522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16522"><a href="https://hacked.com/about-us/">About us</a>
+<ul class="sub-menu">
+	<li id="menu-item-17631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17631"><a href="https://hacked.com/about-us/tc/">T&#038;C</a></li>
+</ul>
+</li>
+<li id="menu-item-17630" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17630"><a href="https://hacked.com/about-us/contact/">Contact</a></li>
+</ul></div>		</nav>
+	</div><!--mvp-fly-menu-wrap-->
+	<div id="mvp-fly-soc-wrap">
+		<span class="mvp-fly-soc-head">Connect with us</span>
+		<ul class="mvp-fly-soc-list left relative">
+																										</ul>
+	</div><!--mvp-fly-soc-wrap-->
+</div><!--mvp-fly-wrap-->	<div id="mvp-site" class="left relative">
+		<div id="mvp-search-wrap">
+			<div id="mvp-search-box">
+				<form method="get" id="searchform" action="https://hacked.com/">
+	<input type="text" name="s" id="s" value="Search" onfocus='if (this.value == "Search") { this.value = ""; }' onblur='if (this.value == "") { this.value = "Search"; }' />
+	<input type="hidden" id="searchsubmit" value="Search" />
+</form>			</div><!--mvp-search-box-->
+			<div class="mvp-search-but-wrap mvp-search-click">
+				<span></span>
+				<span></span>
+			</div><!--mvp-search-but-wrap-->
+		</div><!--mvp-search-wrap-->
+				<div id="mvp-site-wall" class="left relative">
+						<div id="mvp-site-main" class="left relative">
+			<header id="mvp-main-head-wrap" class="left relative">
+									<nav id="mvp-main-nav-wrap" class="left relative">
+						<div id="mvp-main-nav-small" class="left relative">
+							<div id="mvp-main-nav-small-cont" class="left">
+								<div class="mvp-main-box">
+									<div id="mvp-nav-small-wrap">
+										<div class="mvp-nav-small-right-out left">
+											<div class="mvp-nav-small-right-in">
+												<div class="mvp-nav-small-cont left">
+													<div class="mvp-nav-small-left-out right">
+														<div id="mvp-nav-small-left" class="left relative">
+															<div class="mvp-fly-but-wrap mvp-fly-but-click left relative">
+																<span></span>
+																<span></span>
+																<span></span>
+																<span></span>
+															</div><!--mvp-fly-but-wrap-->
+														</div><!--mvp-nav-small-left-->
+														<div class="mvp-nav-small-left-in">
+															<div class="mvp-nav-small-mid left">
+																<div class="mvp-nav-small-logo left relative">
+																																			<a href="https://hacked.com/"><img src="https://hacked.com/wp-content/uploads/2017/10/hackedlogokopi3.png" alt="Hacked: Hacking Finance" data-rjs="2" /></a>
+																																																				<h1 class="mvp-logo-title">Hacked: Hacking Finance</h1>
+																																	</div><!--mvp-nav-small-logo-->
+																<div class="mvp-nav-small-mid-right left">
+																																		<div class="mvp-nav-menu left">
+																		<div class="menu-primary-container"><ul id="menu-primary-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17380"><a href="https://hacked.com/continue-reading">Join</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16532"><a href="https://hacked.com/wp-login.php">Login</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18997"><a href="https://hacked.com/success-stories/">Success Stories</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71661"><a href="https://hacked.com/forums/">Forum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26085"><a href="https://hacked.com/cryptocurrency-trend-signals-detailed-trading-investment-advice/">Trend Signals</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17690"><a href="https://hacked.com/recommendations2/">Recommendations</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16522"><a href="https://hacked.com/about-us/">About us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17631"><a href="https://hacked.com/about-us/tc/">T&#038;C</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17630"><a href="https://hacked.com/about-us/contact/">Contact</a></li>
+</ul></div>																	</div><!--mvp-nav-menu-->
+																</div><!--mvp-nav-small-mid-right-->
+															</div><!--mvp-nav-small-mid-->
+														</div><!--mvp-nav-small-left-in-->
+													</div><!--mvp-nav-small-left-out-->
+												</div><!--mvp-nav-small-cont-->
+											</div><!--mvp-nav-small-right-in-->
+											<div id="mvp-nav-small-right" class="right relative">
+												<span class="mvp-nav-search-but fa fa-search fa-2 mvp-search-click"></span>
+											</div><!--mvp-nav-small-right-->
+										</div><!--mvp-nav-small-right-out-->
+									</div><!--mvp-nav-small-wrap-->
+								</div><!--mvp-main-box-->
+							</di><!--mvp-main-nav-small-cont-->
+						</div><!--mvp-main-nav-small-->
+					</nav><!--mvp-main-nav-wrap-->
+							</header><!--mvp-main-head-wrap-->
+			<div id="mvp-main-body-wrap" class="left relative">
+								<div class="mobile-logginer">
+						<a href="https://hacked.com/wp-login.php">Login</a>
+						<a href="https://hacked.com/continue-reading/">Join</a>
+					</div>
+				<div id="mvp-home-widget-wrap" class="left relative">
+					<section id="mvp_home_feat1_widget-2" class="mvp-widget-home left relative mvp_home_feat1_widget"><div class="mvp-main-box"><div class="mvp-widget-home-head"><h4 class="mvp-widget-home-title"><span class="mvp-widget-home-title">Latest</span></h4></div>
+			<div class="mvp-widget-feat1-wrap left relative">
+									<div class="mvp-widget-feat1-cont left relative">
+																														<a href="https://hacked.com/republic-protocol-why-you-should-pay-attention-to-ren-in-2019/" rel="bookmark">
+									<div class="mvp-widget-feat1-top-story left relative">
+										<div class="mvp-widget-feat1-top-img left relative">
+																							<img width="590" height="354" src="https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-590x354.jpg" class="mvp-reg-img lazy wp-post-image" alt="Republic Protocol REN 2019" srcset="https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-590x354.jpg 590w, https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-400x240.jpg 400w" sizes="(max-width: 590px) 100vw, 590px" />												<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-400x240.jpg" class="mvp-mob-img lazy wp-post-image" alt="Republic Protocol REN 2019" srcset="https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/republicProtocolCover-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />																																</div><!--mvp-widget-feat1-top-img-->
+										<div class="mvp-widget-feat1-top-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Cryptocurrencies</span><span class="mvp-cd-date left relative">1 hour ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Republic Protocol: Why You Should Pay Attention to REN in 2019</h2>
+										</div><!--mvp-widget-feat1-top-text-->
+									</div><!--mvp-widget-feat1-top-story-->
+									</a>
+																	<a href="https://hacked.com/christmas-dip-eos-ada-bch-down-20-24/" rel="bookmark">
+									<div class="mvp-widget-feat1-top-story left relative">
+										<div class="mvp-widget-feat1-top-img left relative">
+																							<img width="590" height="354" src="https://hacked.com/wp-content/uploads/2017/12/price-decline-590x354.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2017/12/price-decline-590x354.jpg 590w, https://hacked.com/wp-content/uploads/2017/12/price-decline-400x240.jpg 400w" sizes="(max-width: 590px) 100vw, 590px" />												<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2017/12/price-decline-400x240.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2017/12/price-decline-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2017/12/price-decline-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />																																</div><!--mvp-widget-feat1-top-img-->
+										<div class="mvp-widget-feat1-top-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Uncategorized</span><span class="mvp-cd-date left relative">2 hours ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Christmas Dip: EOS, ADA, BCH Down 20-24%</h2>
+										</div><!--mvp-widget-feat1-top-text-->
+									</div><!--mvp-widget-feat1-top-story-->
+									</a>
+																										</div><!--mvp-widget-feat1-cont-->
+													<div class="mvp-widget-feat1-cont left relative">
+																														<a href="https://hacked.com/ethereum-price-analysis-eth-usd-bull-run-temporarily-halted/" rel="bookmark">
+									<div class="mvp-widget-feat1-bot-story left relative">
+										<div class="mvp-widget-feat1-bot-img left relative">
+																							<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/07/ethereum-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/07/ethereum-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/07/ethereum-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/07/ethereum-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />												<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/07/ethereum-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/07/ethereum-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/07/ethereum-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																																</div><!--mvp-widget-feat1-bot-img-->
+										<div class="mvp-widget-feat1-bot-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Altcoins</span><span class="mvp-cd-date left relative">2 hours ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Ethereum Price Analysis: ETH/USD Bull Run Temporarily Halted</h2>
+										</div><!--mvp-widget-feat1-bot-text-->
+									</div><!--mvp-widget-feat1-bot-story-->
+									</a>
+																	<a href="https://hacked.com/crypto-markets-decline-20-billion-from-recent-peak/" rel="bookmark">
+									<div class="mvp-widget-feat1-bot-story left relative">
+										<div class="mvp-widget-feat1-bot-img left relative">
+																							<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />												<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/04/cryptocurrency-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																																</div><!--mvp-widget-feat1-bot-img-->
+										<div class="mvp-widget-feat1-bot-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Cryptocurrencies</span><span class="mvp-cd-date left relative">3 hours ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Crypto Markets Decline $20 Billion from Recent Peak</h2>
+										</div><!--mvp-widget-feat1-bot-text-->
+									</div><!--mvp-widget-feat1-bot-story-->
+									</a>
+																	<a href="https://hacked.com/trade-recommendation-tron-8/" rel="bookmark">
+									<div class="mvp-widget-feat1-bot-story left relative">
+										<div class="mvp-widget-feat1-bot-img left relative">
+																							<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/TRON-1-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/TRON-1-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/TRON-1-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/TRON-1-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />												<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/TRON-1-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/TRON-1-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/TRON-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																																</div><!--mvp-widget-feat1-bot-img-->
+										<div class="mvp-widget-feat1-bot-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Recommendations</span><span class="mvp-cd-date left relative">3 hours ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Trade Recommendation: TRON</h2>
+										</div><!--mvp-widget-feat1-bot-text-->
+									</div><!--mvp-widget-feat1-bot-story-->
+									</a>
+																	<a href="https://hacked.com/bitcoin-price-plunges-10-in-market-wide-correction/" rel="bookmark">
+									<div class="mvp-widget-feat1-bot-story left relative">
+										<div class="mvp-widget-feat1-bot-img left relative">
+																							<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />												<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/bitcoin-new-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																																</div><!--mvp-widget-feat1-bot-img-->
+										<div class="mvp-widget-feat1-bot-text left relative">
+											<div class="mvp-cat-date-wrap left relative">
+												<span class="mvp-cd-cat left relative">Bitcoin</span><span class="mvp-cd-date left relative">3 hours ago</span>
+											</div><!--mvp-cat-date-wrap-->
+											<h2>Bitcoin Price Plunges 10% in Market-Wide Correction</h2>
+										</div><!--mvp-widget-feat1-bot-text-->
+									</div><!--mvp-widget-feat1-bot-story-->
+									</a>
+																										</div><!--mvp-widget-feat1-cont-->
+							</div><!--mvp-widget-feat1-wrap-->
+
+		</div></section>			</div><!--mvp-home-widget-wrap-->
+	<div class="mvp-main-blog-wrap left relative">
+		<div class="mvp-main-box">
+			<div class="mvp-main-blog-cont left relative">
+				<div class="mvp-widget-home-head">
+					<h4 class="mvp-widget-home-title">
+						<span class="mvp-widget-home-title">More News</span>
+					</h4>
+				</div><!--mvp-widget-home-head-->
+				<div class="mvp-main-blog-out left relative">
+					<div class="mvp-main-blog-in">
+						<div class="mvp-main-blog-body left relative">
+															<ul class="mvp-blog-story-list left relative infinite-content">
+																														<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/apple-vs-qualcomm-weve-got-no-winner-here/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Apple_Qualcomm_1024x768-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">4 hours ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Apple vs Qualcomm: We&#8217;ve Got No Winner Here</h2>
+																<p>By Dmitriy Gurkovskiy, Chief Analyst at RoboMarkets On Dec 10, it became known that the Intermediate People&#8217;s Court of Fuzhou acknowledged that Apple (NASDAQ: AAPL) violated...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/xrp-price-analysis-xrp-usd-has-been-provided-more-room-for-a-large-bull-run/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Altcoins</span><span class="mvp-cd-date left relative">6 hours ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>XRP Price Analysis: XRP/USD Has Been Provided More Room for a Large Bull Run</h2>
+																<p>XRP/USD is forced to cool after the huge run of gains seen initially on Monday. Technically the recent price behaviors remain attractive for the bulls. A...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/projects-built-on-stellar-and-possible-investment-ideas/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/10/stellar-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/10/stellar-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/10/stellar-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/10/stellar-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/10/stellar-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/10/stellar-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/10/stellar-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Business</span><span class="mvp-cd-date left relative">17 hours ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Projects Built on Stellar and Possible Investment Ideas</h2>
+																<p>In this article, I will speak about five projects that have chosen Stellar blockchain as opposed to the Ethereum network. A distinctive feature of Stellar (https://www.stellar.org/)...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/forex-update-forex-update-sell-off-continues-ahead-of-holiday-break/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/money-burn-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/money-burn-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/money-burn-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/money-burn-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/money-burn-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/money-burn-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/money-burn-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">22 hours ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Forex Update: Forex Update: Sell-Off Continues Ahead of Holiday Break</h2>
+																<p>Forex Market Snapshot Asset Current Value Daily Change EUR/USD 1.1406 0.32% GBP/USD 1.2705 0.64% USD/JPY 110.32 -0.79% AUD/USD 0.7049 0.25% GOLD 1,273 1.11% WTI Crude Oil...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/stock-selloff-deepens-in-holiday-shortened-trade-dow-plunges-653-points/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/09/selloff-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/selloff-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/09/selloff-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/09/selloff-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/selloff-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/09/selloff-150x150.jpg 150w, https://hacked.com/wp-content/uploads/2018/09/selloff-560x563.jpg 560w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Market Overview</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Stock Selloff Deepens in Holiday-Shortened Trade; Dow Plunges 653 Points</h2>
+																<p>U.S. stocks extended their slide ahead of the Christmas holiday, rounding out one of the most tumultuous period for markets since the 2008 financial crisis. Meanwhile,...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/crypto-update-coins-extend-gains-as-ethereum-hits-one-month-high/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/ethnew-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/ethnew-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/ethnew-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/ethnew-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/ethnew-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/ethnew-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/ethnew-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Crypto Update: Coins Extend Gains as Ethereum Hits One-Month High</h2>
+																<p>The counter-trend rally continued in earnest in the cryptocurrency segment in the past 48 hours, with the majors forming yet another short-term swing low and hitting...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/bitcoins-market-dominance-nears-50-for-the-first-time-in-five-months/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/08/pie-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/08/pie-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/08/pie-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/08/pie-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/08/pie-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/08/pie-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/08/pie-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Bitcoin</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Bitcoin&#8217;s Market Dominance Nears 50% for the First Time in Five Months</h2>
+																<p>Bitcoin has rallied more than $1,100 from its December low, but its share of the overall cryptocurrency market has fallen to roughly half. If history is...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/oils-big-discount-continues-as-wti-falls-below-45-a-barrel/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/06/Oil-Rigs-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Commodities</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Oil&#8217;s Big Discount Continues as WTI Falls Below $45 a Barrel</h2>
+																<p>Crude prices notched fresh yearly lows on Monday, highlighting the extent of the bearish downturn since October and offering little hope that a recovery was imminent....</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/litecoin-price-analysis-ltc-usd-scheduled-for-flight-back-to-50/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Litecoin-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Litecoin-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Litecoin-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Litecoin-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Litecoin-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Litecoin-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Litecoin-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Altcoins</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Litecoin Price Analysis: LTC/USD Scheduled for Flight Back to $50</h2>
+																<p>LTC/USD is running in its third consecutive week of trading in the green. The next major area of interest for the bulls is likely to be...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/binance-adds-tron-trx-and-zcoin-xzc-trading-against-xrp-quote-currency/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-300x180.jpg 300w, https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-768x461.jpg 768w, https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-590x354.jpg 590w, https://hacked.com/wp-content/uploads/2018/09/Binance-Coin.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/09/Binance-Coin-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Market News</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Binance Adds TRON (TRX) and Zcoin (XZC) Trading Against XRP Quote Currency</h2>
+																<p>Binance just introduced XRP as a quote currency on its exchange platform, and has added TRON (TRX) and Zcoin (XZC) to its tradable pairs. Zcoin surged...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/digital-gold-bitcoin-price-notches-new-december-high/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/11/Bitcoin-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Bitcoin</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Digital Gold? Bitcoin Price Notches New December High</h2>
+																<p>Bitcoin&#8217;s price rallied further on Monday, reaching new highs for the month of December in a sign that the market bears were slowly relinquishing control. The...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/waves-continues-surge-during-bear-market/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/10/waves-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/10/waves-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/10/waves-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/10/waves-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/10/waves-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/10/waves-150x150.jpg 150w, https://hacked.com/wp-content/uploads/2018/10/waves-560x562.jpg 560w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Altcoins</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Waves Continues Surge During Bear Market</h2>
+																<p>Although the overall crypto market continues to be extremely bearish, there have been a few reasons for traders to smile.  The main reason for encouragement is...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/bitcoin-cash-price-analysis-bch-usd-conquers-200-where-next/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/07/Bitcoin-Cash-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Altcoins</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Bitcoin Cash Price Analysis: BCH/USD Conquers $200, Where Next?</h2>
+																<p>Bitcoin Cash is comfortably trading above the psychological $200 mark. BCH/USD bulls must breakout from recent range-block formation for greater upside.  The Bitcoin Cash price at...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/crypto-market-up-40-over-week-small-cap-altcoins-see-huge-price-moves/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2017/11/hurdle-jump-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Cryptocurrencies</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Crypto Market Up 40% Over Week; Small Cap Altcoins See Huge Price Moves</h2>
+																<p>The global cryptocurrency market cap increased 10% leading into Christmas eve, compounding 40% gains for the week as the resurgence from the (temporary?) bottom of $100...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/bears-dominate-bulls-on-oil/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/06/Oil-rig-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/06/Oil-rig-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/06/Oil-rig-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/06/Oil-rig-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/06/Oil-rig-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/06/Oil-rig-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/06/Oil-rig-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">1 day ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Bears Dominate Bulls on Oil</h2>
+																<p>By Dmitriy Gurkovskiy, Chief Analyst at RoboMarkets Last Friday, Brent touched $52.79 USD, the bottom it last reached on September 3, 2017. Early in the final...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/5-things-to-watch-next-week-chartbook-7/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/looking-ahead-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>5 Things To Watch Next Week + ChartBook</h2>
+																<p>An Extraordinary December and an Extraordinary Holiday Season? US Volatility Index (VIX), 4-Hour Chart Analysis The Federal Reserve will announce its rate decision on Wednesday, and...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/what-is-bakkt-preparing-for-the-physical-bitcoin-futures-market/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/bakkt-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/bakkt-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/bakkt-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/bakkt-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/bakkt-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/bakkt-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/bakkt-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Business</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>What is Bakkt? Preparing for the Physical Bitcoin Futures Market</h2>
+																<p>As interest in the global cryptocurrency market grows, the need for a safe and efficient way to use digital assets grows with it. This article will...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/what-is-a-smart-contract-here-are-practical-examples/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="Smart contracts" srcset="https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="Smart contracts" srcset="https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/04/binding-contract-948442_1280-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Education</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>What is a Smart Contract? Here are Practical Examples</h2>
+																<p>Even though there are very few newcomers to the crypto market now, I will provide some useful information on smart contracts even for those who have...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/crypto-update-5-altcoins-to-watch-this-week-9/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Ripple-altcoin-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Analysis</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Crypto Update: 5 Altcoins to Watch This Week</h2>
+																<p>The holiday season is in full swing and with the recent pumps in altcoins, it seems that Santa is in town. Except for Counterparty (XCP/BTC), all...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/ico-analysis-mattereum/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/09/Smart-contract-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/Smart-contract-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/09/Smart-contract-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/09/Smart-contract-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/09/Smart-contract-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/09/Smart-contract-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/09/Smart-contract-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">ICO</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>ICO Analysis: Mattereum</h2>
+																<p>Firstly proposed by Nick Szabo, smart contracts enable the automated execution of a digital contract’s terms upon their conditions’ establishment, removing the need of any third-party...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/long-term-trade-recommendation-verge/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Verge-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Verge-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Verge-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Verge-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Verge-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Verge-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Verge-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Recommendations</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Long-Term Trade Recommendation: Verge</h2>
+																<p>Verge (XVG/BTC) looks intent on closing the year strong. While it recently printed fresh yearly lows, XVG/BTC appears to have no plans of lingering at the...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																					<li class="mvp-blog-story-wrap left relative infinite-post">
+												<a href="https://hacked.com/trade-recommendation-ripple-20/" rel="bookmark">
+																									<div class="mvp-blog-story-out relative">
+														<div class="mvp-blog-story-img left relative">
+															<img width="400" height="240" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-400x240.jpg" class="mvp-reg-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-400x240.jpg 400w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-1000x600.jpg 1000w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-590x354.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" />															<img width="80" height="80" src="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-80x80.jpg" class="mvp-mob-img lazy wp-post-image" alt="" srcset="https://hacked.com/wp-content/uploads/2018/12/Ripple-2-80x80.jpg 80w, https://hacked.com/wp-content/uploads/2018/12/Ripple-2-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" />																													</div><!--mvp-blog-story-img-->
+														<div class="mvp-blog-story-in">
+															<div class="mvp-blog-story-text left relative">
+																<div class="mvp-cat-date-wrap left relative">
+																																			<span class="mvp-cd-cat left relative">Recommendations</span><span class="mvp-cd-date left relative">2 days ago</span>
+																																	</div><!--mvp-cat-date-wrap-->
+																<h2>Trade Recommendation: Ripple</h2>
+																<p>We have this gut feeling that Ripple (XRP/USD) will do something spectacular in the next few days. We have this view after the market breached support...</p>
+															</div><!--mvp-blog-story-text-->
+														</div><!--mvp-blog-story-in-->
+													</div><!--mvp-blog-story-out-->
+																								</a>
+											</li><!--mvp-blog-story-wrap-->
+																											</ul>
+														<div class="mvp-inf-more-wrap left relative">
+																	<a href="#" class="mvp-inf-more-but">More Posts</a>
+																<div class="mvp-nav-links">
+									<div class="pagination"><span>Page 1 of 350</span><span class="current">1</span><a href='https://hacked.com/page/2/' class="inactive">2</a><a href='https://hacked.com/page/3/' class="inactive">3</a><a href='https://hacked.com/page/4/' class="inactive">4</a><a href='https://hacked.com/page/5/' class="inactive">5</a><a href="https://hacked.com/page/2/">Next &rsaquo;</a><a href='https://hacked.com/page/350/'>Last &raquo;</a></div>
+								</div><!--mvp-nav-links-->
+							</div><!--mvp-inf-more-wrap-->
+						</div><!--mvp-main-blog-body-->
+					</div><!--mvp-main-blog-in-->
+					<div id="mvp-side-wrap" class="left relative theiaStickySidebar">
+			<section id="custom_html-2" class="widget_text mvp-side-widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="hckd-btn-container">
+<a class="hckd-btn" href="https://hacked.com/analysis/"><i class="fa fa-file-text-o" aria-hidden="true"></i>Analysis</a>
+<a class="hckd-btn" href="https://hacked.com/recommendations/"><i class="fa fa-line-chart" aria-hidden="true"></i>Recommendations</a>
+<a class="hckd-btn" href="https://hacked.com/cryptocurrencies/"><i class="fa fa-money" aria-hidden="true"></i>Cryptocurrencies</a>
+<a class="hckd-btn" href="https://hacked.com/ico/"><i class="fa fa-check-square-o" aria-hidden="true"></i>ICO Analysis</a>
+<a class="hckd-btn" href="https://hacked.com/trading-101/"><i class="fa fa-university" aria-hidden="true"></i>Trading 101</a>
+</div></div></section>
+<section id="wpp-3" class="mvp-side-widget popular-posts">
+<div class="mvp-widget-home-head"><h4 class="mvp-widget-home-title"><span class="mvp-widget-home-title">Trending</span></h4></div><!-- cached -->
+<!-- WordPress Popular Posts -->
+
+<ol class="wpp-list"> 
+<li><a href="https://hacked.com/xrp-price-analysis-xrp-usd-has-been-provided-more-room-for-a-large-bull-run/" title="XRP Price Analysis: XRP/USD Has Been Provided More Room for a Large Bull Run" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75121-featured-300x200.jpg" width="300" height="200" alt="XRP Price Analysis: XRP/USD Has Been Provided More Room for a Large Bull Run" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/xrp-price-analysis-xrp-usd-has-been-provided-more-room-for-a-large-bull-run/" title="XRP Price Analysis: XRP/USD Has Been Provided More Room for a Large Bull Run" class="wpp-post-title" target="_self">XRP Price Analysis: XRP/USD Has Been Provided More...</a> </span></li><br></br>
+<li><a href="https://hacked.com/projects-built-on-stellar-and-possible-investment-ideas/" title="Projects Built on Stellar and Possible Investment Ideas" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75050-featured-300x200.jpg" width="300" height="200" alt="Projects Built on Stellar and Possible Investment Ideas" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/projects-built-on-stellar-and-possible-investment-ideas/" title="Projects Built on Stellar and Possible Investment Ideas" class="wpp-post-title" target="_self">Projects Built on Stellar and Possible Investment...</a> </span></li><br></br>
+<li><a href="https://hacked.com/ethereum-price-analysis-eth-usd-bull-run-temporarily-halted/" title="Ethereum Price Analysis: ETH/USD Bull Run Temporarily Halted" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75129-featured-300x200.jpg" width="300" height="200" alt="Ethereum Price Analysis: ETH/USD Bull Run Temporarily Halted" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/ethereum-price-analysis-eth-usd-bull-run-temporarily-halted/" title="Ethereum Price Analysis: ETH/USD Bull Run Temporarily Halted" class="wpp-post-title" target="_self">Ethereum Price Analysis: ETH/USD Bull Run Temporar...</a> </span></li><br></br>
+<li><a href="https://hacked.com/republic-protocol-why-you-should-pay-attention-to-ren-in-2019/" title="Republic Protocol: Why You Should Pay Attention to REN in 2019" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75107-featured-300x200.jpg" width="300" height="200" alt="Republic Protocol: Why You Should Pay Attention to REN in 2019" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/republic-protocol-why-you-should-pay-attention-to-ren-in-2019/" title="Republic Protocol: Why You Should Pay Attention to REN in 2019" class="wpp-post-title" target="_self">Republic Protocol: Why You Should Pay Attention to...</a> </span></li><br></br>
+<li><a href="https://hacked.com/bitcoin-price-plunges-10-in-market-wide-correction/" title="Bitcoin Price Plunges 10% in Market-Wide Correction" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75135-featured-300x200.jpg" width="300" height="200" alt="Bitcoin Price Plunges 10% in Market-Wide Correction" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/bitcoin-price-plunges-10-in-market-wide-correction/" title="Bitcoin Price Plunges 10% in Market-Wide Correction" class="wpp-post-title" target="_self">Bitcoin Price Plunges 10% in Market-Wide Correctio...</a> </span></li><br></br>
+<li><a href="https://hacked.com/trade-recommendation-tron-8/" title="Trade Recommendation: TRON" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75139-featured-300x200.jpg" width="300" height="200" alt="Trade Recommendation: TRON" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/trade-recommendation-tron-8/" title="Trade Recommendation: TRON" class="wpp-post-title" target="_self">Trade Recommendation: TRON</a> </span></li><br></br>
+<li><a href="https://hacked.com/forex-update-forex-update-sell-off-continues-ahead-of-holiday-break/" title="Forex Update: Forex Update: Sell-Off Continues Ahead of Holiday Break" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75083-featured-300x200.jpg" width="300" height="200" alt="Forex Update: Forex Update: Sell-Off Continues Ahead of Holiday Break" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/forex-update-forex-update-sell-off-continues-ahead-of-holiday-break/" title="Forex Update: Forex Update: Sell-Off Continues Ahead of Holiday Break" class="wpp-post-title" target="_self">Forex Update: Forex Update: Sell-Off Continues Ahe...</a> </span></li><br></br>
+<li><a href="https://hacked.com/crypto-markets-decline-20-billion-from-recent-peak/" title="Crypto Markets Decline $20 Billion from Recent Peak" target="_self"><img src="https://hacked.com/wp-content/uploads/wordpress-popular-posts/75137-featured-300x200.jpg" width="300" height="200" alt="Crypto Markets Decline $20 Billion from Recent Peak" class="wpp-thumbnail wpp_cached_thumb wpp_featured" /></a>  </li><li><span class="wpp-stats"><a href="https://hacked.com/crypto-markets-decline-20-billion-from-recent-peak/" title="Crypto Markets Decline $20 Billion from Recent Peak" class="wpp-post-title" target="_self">Crypto Markets Decline $20 Billion from Recent Pea...</a> </span></li><br></br>
+
+</ol>
+
+</section>
+		<section id="recent-posts-4" class="mvp-side-widget widget_recent_entries">		<div class="mvp-widget-home-head"><h4 class="mvp-widget-home-title"><span class="mvp-widget-home-title">Recent Posts</span></h4></div>		<ul>
+											<li>
+					<a href="https://hacked.com/republic-protocol-why-you-should-pay-attention-to-ren-in-2019/">Republic Protocol: Why You Should Pay Attention to REN in 2019</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/christmas-dip-eos-ada-bch-down-20-24/">Christmas Dip: EOS, ADA, BCH Down 20-24%</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/ethereum-price-analysis-eth-usd-bull-run-temporarily-halted/">Ethereum Price Analysis: ETH/USD Bull Run Temporarily Halted</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/crypto-markets-decline-20-billion-from-recent-peak/">Crypto Markets Decline $20 Billion from Recent Peak</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/trade-recommendation-tron-8/">Trade Recommendation: TRON</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/bitcoin-price-plunges-10-in-market-wide-correction/">Bitcoin Price Plunges 10% in Market-Wide Correction</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/apple-vs-qualcomm-weve-got-no-winner-here/">Apple vs Qualcomm: We&#8217;ve Got No Winner Here</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/xrp-price-analysis-xrp-usd-has-been-provided-more-room-for-a-large-bull-run/">XRP Price Analysis: XRP/USD Has Been Provided More Room for a Large Bull Run</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/projects-built-on-stellar-and-possible-investment-ideas/">Projects Built on Stellar and Possible Investment Ideas</a>
+											<span class="post-date">December 25, 2018</span>
+									</li>
+											<li>
+					<a href="https://hacked.com/forex-update-forex-update-sell-off-continues-ahead-of-holiday-break/">Forex Update: Forex Update: Sell-Off Continues Ahead of Holiday Break</a>
+											<span class="post-date">December 24, 2018</span>
+									</li>
+					</ul>
+		</section><section id="text-46" class="mvp-side-widget widget_text"><div class="mvp-widget-home-head"><h4 class="mvp-widget-home-title"><span class="mvp-widget-home-title">A part of CCN</span></h4></div>			<div class="textwidget"><p><center><a href="http://www.ccn.com"><img src="https://hacked.com/wp-content/uploads/2017/10/CCNlogo-Graphiciconrgb-kopi-2.png" /></a></center></p>
+</div>
+		</section><section id="text-51" class="mvp-side-widget widget_text"><div class="mvp-widget-home-head"><h4 class="mvp-widget-home-title"><span class="mvp-widget-home-title">Hacked.com is Neutral and Unbiased</span></h4></div>			<div class="textwidget"><p><em>Hacked.com and its team members have pledged to reject any form of advertisement or sponsorships from 3rd parties. We will always be neutral and we strive towards a fully unbiased view on all topics. Whenever an author has a conflicting interest, that should be clearly stated in the post itself with a disclaimer. If you suspect that one of our team members are biased, please notify me immediately at jonas.borchgrevink(at)hacked.com.</em></p>
+</div>
+		</section>	</div><!--mvp-side-wrap-->				</div><!--mvp-mmain-blog-out-->
+			</div><!--mvp-main-blog-cont-->
+		</div><!--mvp-main-box-->
+	</div><!--mvp-main-blog-wrap-->
+			</div><!--mvp-main-body-wrap-->
+			<footer id="mvp-foot-wrap" class="left relative">
+				<div id="mvp-foot-top" class="left relative">
+					<div class="mvp-main-box">
+						<div id="mvp-foot-logo" class="left relative">
+															<a href="https://hacked.com/"><img src="https://hacked.com/wp-content/uploads/2017/12/hacked-black-logo.png" alt="Hacked: Hacking Finance" data-rjs="2" /></a>
+													</div><!--mvp-foot-logo-->
+						<div id="mvp-foot-soc" class="left relative">
+							<ul class="mvp-foot-soc-list left relative">
+																																																																							</ul>
+						</div><!--mvp-foot-soc-->
+						<div id="mvp-foot-menu-wrap" class="left relative">
+							<div id="mvp-foot-menu" class="left relative">
+								<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-35779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35779"><a href="https://hacked.com/hacked-com-expanding-two-fulltime-positions-available/">Open Positions</a></li>
+<li id="menu-item-36370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36370"><a href="https://hacked.com/about-us/contact/">Contact</a></li>
+</ul></div>							</div><!--mvp-foot-menu-->
+						</div><!--mvp-foot-menu-wrap-->
+					</div><!--mvp-main-box-->
+				</div><!--mvp-foot-top-->
+				<div id="mvp-foot-bot" class="left relative">
+					<div class="mvp-main-box">
+						<div id="mvp-foot-copy" class="left relative">
+							<p>Copyright © 2017 - <a href="https://hacked.com/about-us/tc/">Terms &amp; Conditions</A></p>
+						</div><!--mvp-foot-copy-->
+					</div><!--mvp-main-box-->
+				</div><!--mvp-foot-bot-->
+			</footer>
+		</div><!--mvp-site-main-->
+	</div><!--mvp-site-wall-->
+</div><!--mvp-site-->
+<div class="mvp-fly-top back-to-top">
+	<i class="fa fa-angle-up fa-3"></i>
+</div><!--mvp-fly-top-->
+<div class="mvp-fly-fade mvp-fly-but-click">
+</div><!--mvp-fly-fade-->
+		<!-- Memberships powered by Paid Memberships Pro v1.9.5.6.
+ -->
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script type='text/javascript' src='https://hacked.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"https:\/\/hacked.com\/wp-content\/plugins\/wp-postratings","ajax_url":"https:\/\/hacked.com\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 item at a time.","image":"stars","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src="https://hacked.com/wp-content/plugins/wp-postratings/images/stars/rating_over.gif";;
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hacked.com/wp-content/plugins/wp-postratings/js/postratings-js.js?ver=1.85'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/mvpcustom.js?ver=5.0.2'></script>
+<script type='text/javascript'>
+
+	jQuery(document).ready(function($) {
+	$(window).load(function(){
+	var leaderHeight = $("#mvp-leader-wrap").outerHeight();
+	var navHeight = $("#mvp-main-head-wrap").outerHeight();
+	var headerHeight = navHeight + leaderHeight;
+	var previousScroll = 0;
+	$(window).scroll(function(event){
+			var scroll = $(this).scrollTop();
+			if ($(window).scrollTop() > headerHeight){
+				$("#mvp-main-nav-small").addClass("mvp-nav-small-fixed");
+				$("#mvp-main-body-wrap").css("margin-top", navHeight );
+			} else {
+				$("#mvp-main-nav-small").removeClass("mvp-nav-small-fixed");
+				$("#mvp-main-body-wrap").css("margin-top","0");
+			}
+			if ($(window).scrollTop() > headerHeight + 50){
+				$("#mvp-main-nav-small").addClass("mvp-fixed");
+				$("#mvp-main-nav-small").addClass("mvp-fixed-shadow");
+				$(".mvp-fly-top").addClass("mvp-to-top");
+			} else {
+				$("#mvp-main-nav-small").removeClass("mvp-fixed");
+				$("#mvp-main-nav-small").removeClass("mvp-fixed-shadow");
+	    		$(".mvp-fly-top").removeClass("mvp-to-top");
+			}
+			previousScroll = scroll;
+	});
+	});
+	});
+	
+
+	jQuery(document).ready(function($) {
+	$(".menu-item-has-children a").click(function(event){
+	  event.stopPropagation();
+	  location.href = this.href;
+  	});
+
+	$(".menu-item-has-children").click(function(){
+    	  $(this).addClass("toggled");
+    	  if($(".menu-item-has-children").hasClass("toggled"))
+    	  {
+    	  $(this).children("ul").toggle();
+	  $(".mvp-fly-nav-menu").getNiceScroll().resize();
+	  }
+	  $(this).toggleClass("tog-minus");
+    	  return false;
+  	});
+
+	// Main Menu Scroll
+	$(window).load(function(){
+	  $(".mvp-fly-nav-menu").niceScroll({cursorcolor:"#888",cursorwidth: 7,cursorborder: 0,zindex:999999});
+	});
+	});
+	
+
+	jQuery(document).ready(function($) {
+	$(".infinite-content").infinitescroll({
+	  navSelector: ".mvp-nav-links",
+	  nextSelector: ".mvp-nav-links a:first",
+	  itemSelector: ".infinite-post",
+	  errorCallback: function(){ $(".mvp-inf-more-but").css("display", "none") }
+	});
+	$(window).unbind(".infscr");
+	$(".mvp-inf-more-but").click(function(){
+   		$(".infinite-content").infinitescroll("retrieve");
+        	return false;
+	});
+	$(window).load(function(){
+		if ($(".mvp-nav-links a").length) {
+			$(".mvp-inf-more-but").css("display","inline-block");
+		} else {
+			$(".mvp-inf-more-but").css("display","none");
+		}
+	});
+	});
+	
+</script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/retina.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/jquery.infinitescroll.min.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://hacked.com/wp-includes/js/comment-reply.min.js?ver=5.0.2'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/photoswipe/photoswipe.min.js?ver=3.1.15'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/photoswipe/photoswipe-ui-default.min.js?ver=3.1.15'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/themes/zox-news/js/photoswipe/hckd-photswipe.js?ver=3.1.15'></script>
+<script type='text/javascript' src='https://hacked.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.0.0-beta.1'></script>
+<script type='text/javascript' src='https://hacked.com/wp-includes/js/wp-embed.min.js?ver=5.0.2'></script>
+</body>
+</html>

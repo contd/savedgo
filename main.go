@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	var PORT = os.Getenv("PORT")         // ":4444"
+	var PORT = os.Getenv("SERVER_PORT")  // ":4444"
 	var LOGLEVEL = os.Getenv("LOGLEVEL") // "debug"
-	var DBURL = os.Getenv("DBURL")       // "mongodb://localhost:27017/"
-	var DBNAME = os.Getenv("DBNAME")     // "wbag"
+	var DBURL = os.Getenv("MONGO_ADDRS") // "mongodb://localhost:27017/"
+	var DBNAME = os.Getenv("MONGO_DB")   // "wbag"
 
 	if PORT == "" {
 		PORT = ":4444"

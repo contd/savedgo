@@ -36,7 +36,7 @@ func (app *App) Initialize(loglevel string) error {
 	app.Router.Use(middleware.Logger())
 	app.Router.Use(middleware.Recover())
 	app.Router.Use(middleware.CORSWithConfig(middleware.CORSConfig{
-		AllowOrigins: []string{"https://kumpf.io", "http://localhost:*"},
+		AllowOrigins: []string{"*"},
 		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
 	}))
 
@@ -54,7 +54,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/contents/:id{int64}
-	app.Router.GET("/contents/{id:string max(255)}", func(ctx echo.Context) error {
+	app.Router.GET("/contents/:id", func(ctx echo.Context) error {
 		id := ctx.Param("id")
 		link, _ := app.getItem(id)
 		return ctx.JSON(http.StatusOK, link)
@@ -62,7 +62,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/tag/:tag
-	app.Router.GET("/tag/{tag:string max(255)}", func(ctx echo.Context) error {
+	app.Router.GET("/tag/:tag", func(ctx echo.Context) error {
 		tag := ctx.Param("tag")
 		link, err := app.DB.GetTagged("links", tag)
 		if err != nil {
@@ -85,7 +85,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/archived/:tag
-	app.Router.GET("/archived/{tag:string max(255)}", func(ctx echo.Context) error {
+	app.Router.GET("/archived/:tag", func(ctx echo.Context) error {
 		tag := ctx.Param("tag")
 		links, err := app.DB.GetArchivedTag("links", tag)
 		if err != nil {
@@ -108,7 +108,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   GET
 	// Resource: http://localhost:4444/starred/:tag
-	app.Router.GET("/starred/{tag:string max(255)}", func(ctx echo.Context) error {
+	app.Router.GET("/starred/:tag", func(ctx echo.Context) error {
 		tag := ctx.Param("tag")
 		links, err := app.DB.GetStarredTag("links", tag)
 		if err != nil {
@@ -163,7 +163,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   PUT (Update)
 	// Resource: http://localhost:4444/:id
-	app.Router.PUT("/{id:string max(255)}", func(ctx echo.Context) error {
+	app.Router.PUT("/:id", func(ctx echo.Context) error {
 		link := new(Link)
 		err := ctx.Bind(link)
 		if err != nil {
@@ -180,7 +180,7 @@ func (app *App) Initialize(loglevel string) error {
 
 	// Method:   DELETE (Delete)
 	// Resource: http://localhost:4444/:id
-	app.Router.DELETE("/{id:string max(255)}", func(ctx echo.Context) error {
+	app.Router.DELETE("/:id", func(ctx echo.Context) error {
 		link := new(Link)
 		err := ctx.Bind(link)
 		if err != nil {

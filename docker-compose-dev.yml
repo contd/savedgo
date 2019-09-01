@@ -1,0 +1,24 @@
+version: "3.1"
+
+networks:
+  web:
+    external: true
+
+services:
+  saveddev:
+    build: .
+    container_name: saveddev
+    ports:
+      - "4444:4444"
+    environment:
+      - SERVER_PORT=:4444
+      - LOGLEVEL=debug
+      - MONGO_DB=wbag
+      - MONGO_ADDRS=mongodb://mongodb:27017/
+    volumes:
+      - ./uploads:/uploads
+    labels:
+      - traefik.enable=false
+    networks:
+      - web
+

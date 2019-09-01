@@ -11,3 +11,4 @@
 tags
 client/public/cache
 node_modules
+app/static/cache
