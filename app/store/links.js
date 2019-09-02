@@ -2,8 +2,7 @@ import LinksService from '@/services/LinksService.js'
 
 export const state = () => ({
   links: [],
-  link: {},
-  tags: []
+  link: {}
 })
 
 export const mutations = {
@@ -12,9 +11,6 @@ export const mutations = {
   },
   SET_LINK (state, link) {
     state.link = link
-  },
-  SET_TAGS (state, tags) {
-    state.tags = tags
   }
 }
 
