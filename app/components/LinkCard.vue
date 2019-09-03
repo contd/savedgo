@@ -25,7 +25,7 @@
         v-for="(tag, idx) in link.tags"
         :key="idx"
         class="badge"
-        :class="badgeClass(tag)"
+        :class="`badge-${tag}`"
       >
         {{ tag }}
       </button>
@@ -70,10 +70,20 @@
 </template>
 
 <script>
+import moment from 'moment'
+
 export default {
   name: 'LinkCard',
+  filters: {
+    humanDate (date) {
+      return moment(date).format('ddd, MMM Do YYYY')
+    }
+  },
   props: {
-    link: Object
+    link: {
+      type: Object,
+      default: null
+    }
   },
   data: () => ({
     show: false,

@@ -18,5 +18,8 @@ export default {
   },
   getLinksByTag (tag) {
     return apiClient.get('/tag/' + tag)
+  },
+  getArchivedByTag (tag) {
+    return apiClient.get('/archived/' + tag)
   }
 }

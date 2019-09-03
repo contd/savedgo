@@ -29,5 +29,10 @@ export const actions = {
     return LinksService.getLinksByTag(tag).then((resp) => {
       commit('SET_LINKS', resp.data)
     })
+  },
+  fetchArchivedByTag ({ commit }, tag) {
+    return LinksService.getArchivedByTag(tag).then((resp) => {
+      commit('SET_LINKS', resp.data)
+    })
   }
 }

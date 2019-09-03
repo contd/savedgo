@@ -21,19 +21,24 @@ const colors = {
 console.log(`
 .badge {
   border-radius: 3px;
-  margin-left: 0.3em;
-  padding: 0.3em;
-  font-size: 0.7rem;
+  margin-left: 0.5em;
+  padding: 0.5em;
+  font-size: 1rem;
   font-family: inherit;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .badge-starred { background-color: #FFDC00; color: #111111; }
+.badge-starred a { color: #111111; }
 .badge-starred:hover { background-color: #c7ab00; color: #111111; }
 `)
 console.log(' ')
 
 for (let tag of tags) {
-  
+
   if (map[tag.topic]) {
     map[tag.topic].tags.push(tag.label)
   } else {
@@ -68,6 +73,7 @@ for (let tname of topics) {
     }
 
     console.log(`.badge-${ttags[i]} { background-color: ${bgcolor}; color: ${fontcolor}; }`)
+    console.log(`.badge-${ttags[i]} a { color: ${fontcolor}; }`)
     console.log(`.badge-${ttags[i]}:hover { background-color: ${hovercolor}; color: ${fontcolor}; }`)
     console.log(` `)
   }
@@ -77,13 +83,14 @@ for (let i in colors) {
   const color = colors[i]
   let hovercolor = chroma(color).brighten(1)
   let fontcolor = colors.white
-  
+
   if (chroma.contrast(color, 'white') < 4.1) {
     fontcolor = colors.black
     hovercolor = chroma(color).darken(1)
   }
-  
+
   console.log(`.badge-${i} { background-color: ${color}; color: ${fontcolor}; }`)
+  console.log(`.badge-${i} a { color: ${fontcolor}; }`)
   console.log(`.badge-${i}:hover { background-color: ${hovercolor}; color: ${fontcolor}; }`)
   console.log(` `)
 }

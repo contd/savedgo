@@ -31,6 +31,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vue-highlightjs',
+    '~/plugins/vee-validate'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -45,8 +47,17 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
+  /*
+  ** Nuxt.js router
+  */
+  // router: {
+  //   middleware: [
+  //     'auth'
+  //   ]
+  // },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
@@ -88,6 +99,10 @@ export default {
   ** Build configuration
   */
   build: {
+    // Add exception
+    transpile: [
+      "vee-validate/dist/rules"
+    ],
     /*
     ** You can extend webpack config here
     */
