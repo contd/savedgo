@@ -1,4 +1,4 @@
-import tags from '@/services/tags'
+import tags from '@/services/tagsService'
 
 export const state = () => ({
   tags: []

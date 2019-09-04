@@ -8,7 +8,28 @@
       fixed
       app
     >
-      <v-list disabled>
+      <v-list>
+        <v-list-item-group color="primary">
+          <v-btn
+            text
+            nuxt
+            class="mb-2"
+            to="/"
+          >
+            <v-icon>mdi-home</v-icon>
+            Home
+          </v-btn>
+          <v-btn
+            text
+            nuxt
+            class="mb-2"
+            to="/archived/javascript"
+          >
+            <v-icon>mdi-package-down</v-icon>
+            Archive
+          </v-btn>
+        </v-list-item-group>
+        <v-divider />
         <v-subheader class="display-1">
           Tags
         </v-subheader>
@@ -130,7 +151,7 @@
 <script>
 import { extend } from 'vee-validate'
 import { required, email } from 'vee-validate/dist/rules'
-import tags from '@/services/tags'
+import tags from '@/services/tagsService'
 
 extend('required', required)
 extend('email', email)
@@ -177,6 +198,9 @@ export default {
     }
   },
   methods: {
+    goToTagged (url) {
+
+    },
     submit () {
       this.$validator.validate().then((valid) => {
         if (!valid) {

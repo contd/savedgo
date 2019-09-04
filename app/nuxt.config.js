@@ -51,6 +51,30 @@ export default {
     '@nuxtjs/auth'
   ],
   /*
+  ** Axios module configuration
+  ** See https://axios.nuxtjs.org/options
+  */
+  axios: {
+    // proxy: true
+  },
+  proxy: {
+    '/api/': { target: 'http://localhost:4444', pathRewrite: {'^/api/': ''} }
+  },
+  auth: {
+    redirect: {
+      callback: '/callback'
+    },
+    strategies: {
+      google: {
+        client_id: process.env.GOOGLE_CLIENT_ID
+      },
+      github: {
+        client_id: process.env.GITHUB_CLIENT_ID,
+        client_secret: process.env.GITHUB_CLIENT_SECRET
+      }
+    }
+  },
+  /*
   ** Nuxt.js router
   */
   // router: {
@@ -58,13 +82,6 @@ export default {
   //     'auth'
   //   ]
   // },
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-    baseURL: 'http://localhost:4444'
-  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

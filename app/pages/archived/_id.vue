@@ -20,7 +20,7 @@ import LinkCard from '@/components/LinkCard.vue'
 export default {
   head () {
     return {
-      title: 'Home'
+      title: 'Archived'
     }
   },
   components: {
@@ -29,13 +29,13 @@ export default {
   computed: mapState({
     links: state => state.links.links
   }),
-  async fetch ({ store, error }) {
+  async fetch ({ store, error, params }) {
     try {
-      await store.dispatch('links/fetchLinks')
+      await store.dispatch('links/fetchArchivedByTag', params.id)
     } catch (e) {
       error({
         statusCode: 503,
-        message: `Unable to fetch starred links at this time: ${e}`
+        message: `Unable to fetch links of ${params.id} at this time: ${e}`
       })
     }
   }
