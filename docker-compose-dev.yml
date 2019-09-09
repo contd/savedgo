@@ -10,9 +10,6 @@ services:
     container_name: saveddev
     ports:
       - "4444:4444"
-    volumes:
-      - ./:/app
-      - $GOPATH/pkg/mod/cache:/go/pkg/mod/cache
     working_dir: /app
     env_file:
       - .env

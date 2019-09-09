@@ -11,8 +11,6 @@ services:
     restart: always
     env_file:
       - .env
-    volumes:
-      - ./uploads:/uploads
     labels:
       - "traefik.backend=saved"
       - "traefik.domain=kumpf.io"
